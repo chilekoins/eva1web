@@ -1,0 +1,36 @@
+<html>
+<head>
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <div class="login-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Username" name="username">
+      <input type="text" placeholder="Password" name="psw">
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</div>
+    <center><h1>Índice</h1></center>
+</head>
+<body>
+    <center><table>
+        <tr>
+            <th><a href="mantenedorUsuarios/indice_usuarios.php">Mantenedor Usuario</a></th>
+        </tr>
+        <tr>
+            <th><a href="mantenedor_servicios.php">Mantenedor Servicios</a></th>
+        </tr>
+        <tr>
+            <th><a href="mantenedor_relatores.php">Mantenedor Relatores</a></th>
+        </tr>
+        <tr>
+            <th><a href="modulo_gestion.php">Modulo de Gestión de servicios</a></th>
+        </tr>
+        <tr>
+            <th><a href="mantenedor_reportabilidad.php">Mantenedor de Reportabilidad</a></th>
+        </tr>
+    </table></center>
+</body>
+</html>
